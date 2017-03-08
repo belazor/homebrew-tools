@@ -11,6 +11,6 @@ class XfCli < Formula
 	end
 
 	test do
-		system "#{bin}/xf", "--version"
+		system "#{bin}/xf", "help"
 	end
 end
